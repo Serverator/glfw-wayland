@@ -1,0 +1,13 @@
+diff --git a/src/window.c b/src/window.c
+index e03121a4..0ea6e12b 100644
+--- a/src/window.c
++++ b/src/window.c
+@@ -268,7 +268,7 @@ void glfwDefaultWindowHints(void)
+     memset(&_glfw.hints.window, 0, sizeof(_glfw.hints.window));
+     _glfw.hints.window.resizable    = GLFW_TRUE;
+     _glfw.hints.window.visible      = GLFW_TRUE;
+-    _glfw.hints.window.decorated    = GLFW_TRUE;
++    _glfw.hints.window.decorated    = GLFW_FALSE;
+     _glfw.hints.window.focused      = GLFW_TRUE;
+     _glfw.hints.window.autoIconify  = GLFW_TRUE;
+     _glfw.hints.window.centerCursor = GLFW_TRUE;
